@@ -1,0 +1,22 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix be && npm install --prefix fe && npm run build --prefix fe",
+    "start": "npm run start --prefix be"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Binhnealo/Todo_App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Binhnealo/Todo_App/issues"
+  },
+  "homepage": "https://github.com/Binhnealo/Todo_App#readme"
+}
